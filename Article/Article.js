@@ -29,5 +29,4 @@ over the articles NodeList and create a new instance of Article by passing in ea
 
 */
 
-const articles = document.querySelectorAll('.article');
-articles.forEach(article => new Article(article));
+const articles = document.querySelectorAll('.article').forEach(article => new Article(article));
